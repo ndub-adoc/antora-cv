@@ -11,13 +11,13 @@
 #
 # SPDX-License-Identifier: EPL-2.0
 #
-name: docs
-title: Antora for Modular Documentation
+name: antora-cv
+title: CV on Antora
 version: master # Define a Component Version with No Version
 display_version: main
-start_page: end-user-guide:introduction.adoc
-nav:
-  - modules/end-user-guide/nav.adoc
+start_page: end-user-guide:ndubuisson-current-cv.adoc
+#nav:
+#  - modules/end-user-guide/nav.adoc
 asciidoc:
   attributes:
     # for antora
@@ -25,4 +25,4 @@ asciidoc:
     favicon: favicon.png
     icons: font
     # for the project
-    context: docs
+    context: cv
