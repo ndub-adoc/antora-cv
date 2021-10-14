@@ -15,9 +15,9 @@
 #
 
 site:
-  title: Antora for Modular Documentation
+  title: CV on Antora
   # url: Disabled on purpose to avoid htmltest crawling the live website.
-  start_page: docs::index.adoc
+  start_page: end-user-guide:ndubuisson-current-cv.adoc
   robots: allow
 content:
   sources:
